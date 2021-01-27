@@ -91,13 +91,70 @@ header div.main-title {
     padding: 100px 0 120px;
 }
 
+header div.main-title button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+
+/* main */
+
+/* first row */
+
+main hr {
+    width: 98%;
+    border: 1px solid #EEE;
+    margin: 0 auto;
+}
+
+main div.title {
+    text-align: center;
+    padding: 30px;
+}
+
+main div.column-content {
+    width: 90%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+main div.column-content img.icon-profile {
+    width: 35%;
+}
+
+main div.column-content img.icon-computer {
+    width: 59%;
+}
+
+main div.column-content img.icon-doc {
+    width: 41%;
+}
+
+main div.column-content h3 {
+    color: #9BC056;
+    margin: 10px 0;
+}
+
+main div.column-content hr {
+    border: 2px solid #E1E1E1;
+    width: 20%;
+    margin: 15px auto;
+}
+
+main div.column-content p {
+    font-size: 12px;
+    color: #929292;
+}
+
 /* sections */
 
-/* header section */
-
-header section {
+section#bg-header {
     background: #0C3259 url("../img/background-header.png") no-repeat right bottom;
     background-size: 60%;
+}
+
+section.pink {
+    background: #D3D3D3;
 }
 
 /* buttons */
@@ -119,18 +176,16 @@ button.highlighted {
     border: 1px solid #58902C;
 }
 
-header div.main-title button {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 20px;
-}
-
 /* utility */
 
-.bg-blue {
-    ;
+.w-50 {
+    width: 50%;
 }
 
 .p-t5 {
     padding-top: 5px;
+}
+
+.m-b5 {
+    margin-bottom: 5px;
 }
