@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+/* layout  */
+
+div.container {
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+div.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div[class^="col-"] {
+    float: left;
+}
+
+div.col-100 {
+    width: 100%;
+}
+
+div.col-60 {
+    width: 60%;
+}
+
+div.col-50 {
+    width: 50%;
+}
+
+div.col-40 {
+    width: 40%;
+}
+
+div.col-33 {
+    width: calc(100% / 3);
+}
+
+/* header */
+
+header div#logo {
+    width: 19%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* menu */
+
+header nav {
+    width: 80%;
+    height: 20%;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+}
+
+header div#login {
+    width: 80%;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+header ul li {
+    margin: 0 7px;
+    display: inline-block;
+}
+
+header ul li a {
+    color: #FFF;
+    font-size: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* utility */
+
+.bg-blue {
+    background: #0C3259;
+}
