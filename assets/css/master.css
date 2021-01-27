@@ -92,14 +92,15 @@ header div.main-title {
 }
 
 header div.main-title button {
-    padding-top: 15px;
-    padding-bottom: 15px;
     margin-top: 20px;
 }
 
 /* main */
 
-/* first row */
+main div.column-content {
+    padding: 30px 0;
+    margin: 0 auto;
+}
 
 main hr {
     width: 98%;
@@ -107,43 +108,53 @@ main hr {
     margin: 0 auto;
 }
 
+main a {
+    color: #0C3259;
+    font-size: 12px;
+}
+
+/* first row */
+
+
 main div.title {
     text-align: center;
     padding: 30px;
 }
 
-main div.column-content {
-    width: 90%;
-    text-align: center;
-    padding: 30px 0;
-}
-
-main div.column-content img.icon-profile {
+main div.column-content img#icon-profile {
     width: 35%;
 }
 
-main div.column-content img.icon-computer {
+main div.column-content img#icon-computer {
     width: 59%;
 }
 
-main div.column-content img.icon-doc {
+main div.column-content img#icon-doc {
     width: 41%;
 }
 
 main div.column-content h3 {
-    color: #9BC056;
     margin: 10px 0;
 }
 
 main div.column-content hr {
-    border: 2px solid #E1E1E1;
     width: 20%;
+    border: 2px solid #E1E1E1;
     margin: 15px auto;
 }
 
 main div.column-content p {
     font-size: 12px;
     color: #929292;
+}
+
+/* second row */
+
+main div.column-content img#mountain {
+    position: relative;
+    top: 0;
+    left: 60px;
+    width: 70%;
 }
 
 /* sections */
@@ -155,6 +166,55 @@ section#bg-header {
 
 section.pink {
     background: #D3D3D3;
+}
+
+/* footer */
+
+footer section {
+    padding: 40px 0;
+}
+
+footer h3#footer-title {
+    position: relative;
+    top: 0;
+    left: 20%;
+    padding: 13px;
+}
+
+footer span {
+    color: #929292;
+    font-size: 12px;
+}
+
+footer span.select {
+    position: relative;
+    width: 15%;
+    border-bottom: 1px solid #929292;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+footer span.select::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '\25BE';
+    font-size: 14px;
+}
+
+/* help */
+
+div#help {
+    position: fixed;
+    bottom: 0;
+    right: 29.5%;
+    color: #FFF;
+    background: #7ABB00;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px 5px 0 0;
+    padding: 5px;
 }
 
 /* buttons */
@@ -178,6 +238,30 @@ button.highlighted {
 
 /* utility */
 
+.center {
+    text-align: center;
+}
+
+.orange {
+    color: #9BC056;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
 .w-50 {
     width: 50%;
 }
@@ -186,6 +270,15 @@ button.highlighted {
     padding-top: 5px;
 }
 
+.p-tb15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .m-b5 {
     margin-bottom: 5px;
 }
+
+.m-b10 {
+     margin-bottom: 10px;
+ }
