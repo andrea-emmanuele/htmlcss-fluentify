@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Fluentify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="./assets/css/master.css">
 </head>
 <body>
@@ -129,8 +130,22 @@
                 </div>
                 <div class="col-50">
                     <div class="column-content center">
-                        <span>Sono</span>
-                        <span class="select">Seleziona</span>
+                        <label for="nationality">Sono</label>
+                        <div class="selectbox">
+                            <input id="check" type="checkbox">
+                            <label for="check"></label>
+                            <div id="nationality">
+                                <span>Seleziona</span>
+                                <div class="dropdown">
+                                    <div class="option">Italiano</div>
+                                    <div class="line"></div>
+                                    <div class="option">Tedesco</div>
+                                    <div class="line"></div>
+                                    <div class="option">Francese</div>
+                                </div>
+                            </div>
+                        <i class="fas fa-caret-down"></i>
+                        </div>
                         <button class="highlighted p-tb15">visualizza il tuo piano</button>
                     </div>
                 </div>
