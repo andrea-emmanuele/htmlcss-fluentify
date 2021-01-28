@@ -10,7 +10,7 @@
 /* layout  */
 
 div.container {
-    width: 80%;
+    width: 87%;
     margin: 0 auto;
 }
 
@@ -87,8 +87,8 @@ header ul li a {
 
 header div.main-title {
     color: #FFF;
-    font-size: 30px;
-    padding: 100px 0 120px;
+    font-size: 33px;
+    padding: 130px 0 140px;
 }
 
 header div.main-title button {
@@ -153,15 +153,15 @@ main div.column-content p {
 main div.column-content img#mountain {
     position: relative;
     top: 0;
-    left: 60px;
-    width: 70%;
+    left: 88px;
+    width: 78%;
 }
 
 /* sections */
 
 section#bg-header {
-    background: #0C3259 url("../img/background-header.png") no-repeat right bottom;
-    background-size: 60%;
+    background: #0C3259 url("../img/background-header.png") no-repeat 117% 100%;
+    background-size: 71%;
 }
 
 section.pink {
@@ -175,10 +175,7 @@ footer section {
 }
 
 footer h3#footer-title {
-    position: relative;
-    top: 0;
-    left: 20%;
-    padding: 13px;
+    padding: 13px 150px;
 }
 
 footer span {
@@ -207,7 +204,7 @@ footer span.select::after {
 div#help {
     position: fixed;
     bottom: 0;
-    right: 29.5%;
+    right: 17%;
     color: #FFF;
     background: #7ABB00;
     font-size: 12px;
@@ -232,7 +229,7 @@ button {
 button.highlighted {
     background: #7ABB00;
     padding-left: 8px;
-    padding-right: 7px;
+    padding-right: 8px;
     border: 1px solid #58902C;
 }
 
@@ -273,6 +270,16 @@ button.highlighted {
 .p-tb15 {
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.p-lr32  {
+    padding-left: 32px!important;
+    padding-right: 32px!important;
+}
+
+.p-lr12 {
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .m-b5 {
