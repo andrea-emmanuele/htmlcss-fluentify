@@ -109,7 +109,6 @@ main hr {
 }
 
 main a {
-    color: #0C3259;
     font-size: 12px;
 }
 
@@ -121,16 +120,8 @@ main div.title {
     padding: 30px;
 }
 
-main div.column-content img#icon-profile {
-    width: 35%;
-}
-
-main div.column-content img#icon-computer {
-    width: 59%;
-}
-
-main div.column-content img#icon-doc {
-    width: 41%;
+main div.column-content img {
+    height: 130px;
 }
 
 main div.column-content h3 {
@@ -155,6 +146,7 @@ main div.column-content img#mountain {
     top: 0;
     left: 88px;
     width: 78%;
+    height: 100%;
 }
 
 /* sections */
